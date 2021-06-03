@@ -33,3 +33,24 @@ Syntax :
     //Implementation...
   }
 ```
+- Only abstract methods can be overrided. The methods with implementation in the abstract class cannot be overrided in Class.
+- However if you want to override the method implemented in abstract class, we have to make that method virtual.
+Syntax :
+```
+  // In abstract Class :
+  public virtual void <MethodName>()
+  {
+    // implementaiton
+  }
+  // in class :
+  public override void <MethodName>()
+  {
+    // different implementation
+  }
+```
+
+## How to Use Them ?
+We use them when we have an "is a" relationship
+eg: X is a Y
+    SQLDataAccess is a DataAccess
+    SQLiteDataAccess is a DataAccess
