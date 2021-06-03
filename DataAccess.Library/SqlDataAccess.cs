@@ -6,12 +6,12 @@ namespace DataAccess.Library
 {
     public class SqlDataAccess : DataAccess
     {
-        public void LoadData(string name)
+        public override void LoadData(string name)
         {
             Console.WriteLine("Loading SQL Data");
         }
 
-        public void SaveData(string name)
+        public override void SaveData(string name)
         {
             Console.WriteLine("saving data to SQL");
         }

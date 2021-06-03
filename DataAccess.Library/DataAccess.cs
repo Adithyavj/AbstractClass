@@ -15,5 +15,9 @@ namespace DataAccess.Library
             Console.WriteLine("Load Connection String");
             return "TestConnectionString";
         }
+
+        // abstract methods
+        public abstract void LoadData(string name);
+        public abstract void SaveData(string name);
     }
 }
