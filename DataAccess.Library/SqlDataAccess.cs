@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataAccess.Library
 {
-    public class SqlDataAccess
+    public class SqlDataAccess : IDataAccess
     {
         public string LoadConnectionString(string name)
         {
@@ -12,12 +12,12 @@ namespace DataAccess.Library
             return "TestConnectionString";
         }
 
-        public void LoadData()
+        public void LoadData(string name)
         {
             Console.WriteLine("Loading SQL Data");
         }
 
-        public void SaveData()
+        public void SaveData(string name)
         {
             Console.WriteLine("saving data to SQL");
         }
