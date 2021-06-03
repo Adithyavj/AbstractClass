@@ -5,9 +5,10 @@ using System.Text;
 namespace DataAccess.Library
 {
     /// <summary>
-    /// base class
+    /// abstract class
+    /// we cannot create and instance of an abstract class/interface
     /// </summary>
-    public class DataAccess
+    public abstract class DataAccess
     {
         public string LoadConnectionString(string name)
         {
