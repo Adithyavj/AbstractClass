@@ -4,14 +4,8 @@ using System.Text;
 
 namespace DataAccess.Library
 {
-    public class SqlDataAccess : IDataAccess
+    public class SqlDataAccess : DataAccess
     {
-        public string LoadConnectionString(string name)
-        {
-            Console.WriteLine("Load Connection String");
-            return "TestConnectionString";
-        }
-
         public void LoadData(string name)
         {
             Console.WriteLine("Loading SQL Data");
