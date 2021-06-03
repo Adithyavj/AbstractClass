@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Library
+namespace DAccess.Library
 {
     /// <summary>
     /// abstract class
@@ -10,7 +10,7 @@ namespace DataAccess.Library
     /// </summary>
     public abstract class DataAccess
     {
-        public string LoadConnectionString(string name)
+        public virtual string LoadConnectionString(string name)
         {
             Console.WriteLine("Load Connection String");
             return "TestConnectionString";

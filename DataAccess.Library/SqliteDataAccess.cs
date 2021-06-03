@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Library
+namespace DAccess.Library
 {
     public class SqliteDataAccess : DataAccess
     {

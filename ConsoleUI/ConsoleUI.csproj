@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-	  <ProjectReference Include="..\DataAccess.Library\DataAccess.Library.csproj"/>
+	  <ProjectReference Include="..\DataAccess.Library\DAccess.Library.csproj" />
   </ItemGroup>
 
 </Project>
