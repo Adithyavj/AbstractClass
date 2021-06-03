@@ -48,3 +48,9 @@ Syntax :
     // different implementation
   }
 ```
+
+## How to Use Them ?
+We use them when we have an "is a" relationship
+eg: X is a Y
+    SQLDataAccess is a DataAccess
+    SQLiteDataAccess is a DataAccess
